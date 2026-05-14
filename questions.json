@@ -1,0 +1,705 @@
+[
+  {
+    "id": 1,
+    "topic": "Python Programming",
+    "difficulty": "Easy",
+    "question": "Which keyword is used to define a function in Python?",
+    "options": {
+      "A": "func",
+      "B": "define",
+      "C": "def",
+      "D": "function"
+    },
+    "answer": "C",
+    "explanation": "'def' is the keyword used to define a function in Python."
+  },
+  {
+    "id": 2,
+    "topic": "Python Programming",
+    "difficulty": "Easy",
+    "question": "Which data type is used to store text in Python?",
+    "options": {
+      "A": "int",
+      "B": "str",
+      "C": "bool",
+      "D": "float"
+    },
+    "answer": "B",
+    "explanation": "The str data type stores text values."
+  },
+  {
+    "id": 3,
+    "topic": "Python Programming",
+    "difficulty": "Medium",
+    "question": "What does len() return?",
+    "options": {
+      "A": "The type of a variable",
+      "B": "The length of an object",
+      "C": "The largest number",
+      "D": "A random value"
+    },
+    "answer": "B",
+    "explanation": "len() returns the number of items in an object."
+  },
+  {
+    "id": 4,
+    "topic": "Python Programming",
+    "difficulty": "Medium",
+    "question": "Which symbol is used for comments in Python?",
+    "options": {
+      "A": "//",
+      "B": "<!--",
+      "C": "#",
+      "D": "/*"
+    },
+    "answer": "C",
+    "explanation": "Python uses the # symbol for single-line comments."
+  },
+  {
+    "id": 5,
+    "topic": "Python Programming",
+    "difficulty": "Hard",
+    "question": "Which Python collection type stores unique values only?",
+    "options": {
+      "A": "List",
+      "B": "Tuple",
+      "C": "Dictionary",
+      "D": "Set"
+    },
+    "answer": "D",
+    "explanation": "A set stores only unique values."
+  },
+  {
+    "id": 6,
+    "topic": "General Knowledge",
+    "difficulty": "Easy",
+    "question": "What is the capital city of Nigeria?",
+    "options": {
+      "A": "Lagos",
+      "B": "Kano",
+      "C": "Abuja",
+      "D": "Ibadan"
+    },
+    "answer": "C",
+    "explanation": "Abuja is the capital city of Nigeria."
+  },
+  {
+    "id": 7,
+    "topic": "General Knowledge",
+    "difficulty": "Easy",
+    "question": "How many continents are there in the world?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "C",
+    "explanation": "There are 7 continents in the world."
+  },
+  {
+    "id": 8,
+    "topic": "General Knowledge",
+    "difficulty": "Medium",
+    "question": "Which country has the largest population in the world?",
+    "options": {
+      "A": "India",
+      "B": "USA",
+      "C": "Russia",
+      "D": "Brazil"
+    },
+    "answer": "A",
+    "explanation": "India currently has the largest population in the world."
+  },
+  {
+    "id": 9,
+    "topic": "General Knowledge",
+    "difficulty": "Medium",
+    "question": "Which ocean is the largest?",
+    "options": {
+      "A": "Atlantic Ocean",
+      "B": "Indian Ocean",
+      "C": "Pacific Ocean",
+      "D": "Arctic Ocean"
+    },
+    "answer": "C",
+    "explanation": "The Pacific Ocean is the largest ocean on Earth."
+  },
+  {
+    "id": 10,
+    "topic": "General Knowledge",
+    "difficulty": "Hard",
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "options": {
+      "A": "Charles Dickens",
+      "B": "William Shakespeare",
+      "C": "Chinua Achebe",
+      "D": "Wole Soyinka"
+    },
+    "answer": "B",
+    "explanation": "William Shakespeare wrote Romeo and Juliet."
+  },
+  {
+    "id": 11,
+    "topic": "Mathematics",
+    "difficulty": "Easy",
+    "question": "What is 8 × 7?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "49"
+    },
+    "answer": "B",
+    "explanation": "8 multiplied by 7 equals 56."
+  },
+  {
+    "id": 12,
+    "topic": "Mathematics",
+    "difficulty": "Easy",
+    "question": "What is the square root of 81?",
+    "options": {
+      "A": "8",
+      "B": "7",
+      "C": "9",
+      "D": "6"
+    },
+    "answer": "C",
+    "explanation": "9 multiplied by itself equals 81."
+  },
+  {
+    "id": 13,
+    "topic": "Mathematics",
+    "difficulty": "Medium",
+    "question": "What is 15% of 200?",
+    "options": {
+      "A": "20",
+      "B": "25",
+      "C": "30",
+      "D": "35"
+    },
+    "answer": "C",
+    "explanation": "15% of 200 is 30."
+  },
+  {
+    "id": 14,
+    "topic": "Mathematics",
+    "difficulty": "Medium",
+    "question": "Solve: 3x = 27",
+    "options": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9"
+    },
+    "answer": "D",
+    "explanation": "Dividing both sides by 3 gives x = 9."
+  },
+  {
+    "id": 15,
+    "topic": "Mathematics",
+    "difficulty": "Hard",
+    "question": "What is the derivative of x²?",
+    "options": {
+      "A": "x",
+      "B": "2x",
+      "C": "x²",
+      "D": "2"
+    },
+    "answer": "B",
+    "explanation": "The derivative of x² is 2x."
+  },
+  {
+    "id": 16,
+    "topic": "Science",
+    "difficulty": "Easy",
+    "question": "What planet is known as the Red Planet?",
+    "options": {
+      "A": "Earth",
+      "B": "Venus",
+      "C": "Mars",
+      "D": "Jupiter"
+    },
+    "answer": "C",
+    "explanation": "Mars is called the Red Planet because of its reddish appearance."
+  },
+  {
+    "id": 17,
+    "topic": "Science",
+    "difficulty": "Easy",
+    "question": "What gas do humans breathe in to survive?",
+    "options": {
+      "A": "Carbon dioxide",
+      "B": "Nitrogen",
+      "C": "Hydrogen",
+      "D": "Oxygen"
+    },
+    "answer": "D",
+    "explanation": "Humans need oxygen for respiration."
+  },
+  {
+    "id": 18,
+    "topic": "Science",
+    "difficulty": "Medium",
+    "question": "What is the chemical symbol for water?",
+    "options": {
+      "A": "WO",
+      "B": "H2O",
+      "C": "O2",
+      "D": "CO2"
+    },
+    "answer": "B",
+    "explanation": "Water is made of hydrogen and oxygen, written as H2O."
+  },
+  {
+    "id": 19,
+    "topic": "Science",
+    "difficulty": "Medium",
+    "question": "Which organ pumps blood around the human body?",
+    "options": {
+      "A": "Lungs",
+      "B": "Kidney",
+      "C": "Heart",
+      "D": "Brain"
+    },
+    "answer": "C",
+    "explanation": "The heart pumps blood through the circulatory system."
+  },
+  {
+    "id": 20,
+    "topic": "Science",
+    "difficulty": "Hard",
+    "question": "What force keeps planets in orbit around the sun?",
+    "options": {
+      "A": "Magnetism",
+      "B": "Friction",
+      "C": "Electricity",
+      "D": "Gravity"
+    },
+    "answer": "D",
+    "explanation": "Gravity keeps planets orbiting the sun."
+  },
+  {
+    "id": 21,
+    "topic": "Python Programming",
+    "difficulty": "Easy",
+    "question": "Which function is used to display output in Python?",
+    "options": {
+      "A": "echo()",
+      "B": "display()",
+      "C": "print()",
+      "D": "output()"
+    },
+    "answer": "C",
+    "explanation": "print() is used to display output in Python."
+  },
+  {
+    "id": 22,
+    "topic": "Python Programming",
+    "difficulty": "Easy",
+    "question": "Which operator is used for multiplication in Python?",
+    "options": {
+      "A": "x",
+      "B": "*",
+      "C": "%",
+      "D": "#"
+    },
+    "answer": "B",
+    "explanation": "The * symbol performs multiplication in Python."
+  },
+  {
+    "id": 23,
+    "topic": "Python Programming",
+    "difficulty": "Medium",
+    "question": "What is the output type of input() in Python?",
+    "options": {
+      "A": "Integer",
+      "B": "Boolean",
+      "C": "Float",
+      "D": "String"
+    },
+    "answer": "D",
+    "explanation": "input() returns user input as a string."
+  },
+  {
+    "id": 24,
+    "topic": "Python Programming",
+    "difficulty": "Medium",
+    "question": "Which keyword is used for loops in Python?",
+    "options": {
+      "A": "repeat",
+      "B": "loop",
+      "C": "for",
+      "D": "iterate"
+    },
+    "answer": "C",
+    "explanation": "The for keyword is used to create loops in Python."
+  },
+  {
+    "id": 25,
+    "topic": "Python Programming",
+    "difficulty": "Hard",
+    "question": "Which method adds an item to the end of a list?",
+    "options": {
+      "A": "insert()",
+      "B": "append()",
+      "C": "extend()",
+      "D": "push()"
+    },
+    "answer": "B",
+    "explanation": "append() adds a single item to the end of a list."
+  },
+  {
+    "id": 26,
+    "topic": "Python Programming",
+    "difficulty": "Hard",
+    "question": "Which keyword is used to handle exceptions in Python?",
+    "options": {
+      "A": "catch",
+      "B": "except",
+      "C": "error",
+      "D": "handle"
+    },
+    "answer": "B",
+    "explanation": "except is used to handle exceptions in Python."
+  },
+  {
+    "id": 27,
+    "topic": "Python Programming",
+    "difficulty": "Easy",
+    "question": "Which symbol is used to assign values to variables?",
+    "options": {
+      "A": "==",
+      "B": "=",
+      "C": ":",
+      "D": "=>"
+    },
+    "answer": "B",
+    "explanation": "The = operator assigns values to variables."
+  },
+  {
+    "id": 28,
+    "topic": "Python Programming",
+    "difficulty": "Medium",
+    "question": "What does the type() function do?",
+    "options": {
+      "A": "Deletes variables",
+      "B": "Converts values",
+      "C": "Returns data type",
+      "D": "Prints output"
+    },
+    "answer": "C",
+    "explanation": "type() returns the data type of an object."
+  },
+  {
+    "id": 29,
+    "topic": "Python Programming",
+    "difficulty": "Hard",
+    "question": "Which keyword stops a loop immediately?",
+    "options": {
+      "A": "continue",
+      "B": "pass",
+      "C": "exit",
+      "D": "break"
+    },
+    "answer": "D",
+    "explanation": "break immediately terminates a loop."
+  },
+  {
+    "id": 30,
+    "topic": "Python Programming",
+    "difficulty": "Hard",
+    "question": "Which data structure stores key-value pairs?",
+    "options": {
+      "A": "List",
+      "B": "Tuple",
+      "C": "Dictionary",
+      "D": "Set"
+    },
+    "answer": "C",
+    "explanation": "A dictionary stores data as key-value pairs."
+  },
+
+  {
+    "id": 31,
+    "topic": "General Knowledge",
+    "difficulty": "Easy",
+    "question": "Which continent is Nigeria located in?",
+    "options": {
+      "A": "Europe",
+      "B": "Africa",
+      "C": "Asia",
+      "D": "South America"
+    },
+    "answer": "B",
+    "explanation": "Nigeria is located in Africa."
+  },
+  {
+    "id": 32,
+    "topic": "General Knowledge",
+    "difficulty": "Easy",
+    "question": "How many days are in a leap year?",
+    "options": {
+      "A": "364",
+      "B": "365",
+      "C": "366",
+      "D": "367"
+    },
+    "answer": "C",
+    "explanation": "A leap year contains 366 days."
+  },
+  {
+    "id": 33,
+    "topic": "General Knowledge",
+    "difficulty": "Medium",
+    "question": "Which currency is used in Nigeria?",
+    "options": {
+      "A": "Dollar",
+      "B": "Euro",
+      "C": "Naira",
+      "D": "Pound"
+    },
+    "answer": "C",
+    "explanation": "Nigeria uses the Naira."
+  },
+  {
+    "id": 34,
+    "topic": "General Knowledge",
+    "difficulty": "Medium",
+    "question": "Which country gifted the Statue of Liberty to the USA?",
+    "options": {
+      "A": "France",
+      "B": "Germany",
+      "C": "Canada",
+      "D": "Italy"
+    },
+    "answer": "A",
+    "explanation": "France gifted the Statue of Liberty to the USA."
+  },
+  {
+    "id": 35,
+    "topic": "General Knowledge",
+    "difficulty": "Hard",
+    "question": "Which is the longest river in the world?",
+    "options": {
+      "A": "River Niger",
+      "B": "Amazon River",
+      "C": "River Nile",
+      "D": "Mississippi River"
+    },
+    "answer": "C",
+    "explanation": "The Nile River is widely recognized as the longest river."
+  },
+  {
+    "id": 36,
+    "topic": "General Knowledge",
+    "difficulty": "Hard",
+    "question": "Who painted the Mona Lisa?",
+    "options": {
+      "A": "Pablo Picasso",
+      "B": "Leonardo da Vinci",
+      "C": "Vincent van Gogh",
+      "D": "Claude Monet"
+    },
+    "answer": "B",
+    "explanation": "Leonardo da Vinci painted the Mona Lisa."
+  },
+  {
+    "id": 37,
+    "topic": "General Knowledge",
+    "difficulty": "Easy",
+    "question": "Which animal is known as the King of the Jungle?",
+    "options": {
+      "A": "Tiger",
+      "B": "Elephant",
+      "C": "Lion",
+      "D": "Leopard"
+    },
+    "answer": "C",
+    "explanation": "The lion is commonly called the King of the Jungle."
+  },
+  {
+    "id": 38,
+    "topic": "General Knowledge",
+    "difficulty": "Medium",
+    "question": "Which language has the most native speakers worldwide?",
+    "options": {
+      "A": "English",
+      "B": "French",
+      "C": "Mandarin Chinese",
+      "D": "Spanish"
+    },
+    "answer": "C",
+    "explanation": "Mandarin Chinese has the highest number of native speakers."
+  },
+  {
+    "id": 39,
+    "topic": "General Knowledge",
+    "difficulty": "Hard",
+    "question": "Which year did World War II end?",
+    "options": {
+      "A": "1945",
+      "B": "1939",
+      "C": "1918",
+      "D": "1960"
+    },
+    "answer": "A",
+    "explanation": "World War II ended in 1945."
+  },
+  {
+    "id": 40,
+    "topic": "General Knowledge",
+    "difficulty": "Hard",
+    "question": "Which country is called the Land of the Rising Sun?",
+    "options": {
+      "A": "China",
+      "B": "Thailand",
+      "C": "Japan",
+      "D": "India"
+    },
+    "answer": "C",
+    "explanation": "Japan is known as the Land of the Rising Sun."
+  },
+
+  {
+    "id": 41,
+    "topic": "Mathematics",
+    "difficulty": "Easy",
+    "question": "What is 12 + 15?",
+    "options": {
+      "A": "25",
+      "B": "27",
+      "C": "29",
+      "D": "30"
+    },
+    "answer": "B",
+    "explanation": "12 plus 15 equals 27."
+  },
+  {
+    "id": 42,
+    "topic": "Mathematics",
+    "difficulty": "Easy",
+    "question": "What is 100 divided by 10?",
+    "options": {
+      "A": "5",
+      "B": "20",
+      "C": "10",
+      "D": "15"
+    },
+    "answer": "C",
+    "explanation": "100 divided by 10 equals 10."
+  },
+  {
+    "id": 43,
+    "topic": "Mathematics",
+    "difficulty": "Medium",
+    "question": "What is the value of π rounded to two decimal places?",
+    "options": {
+      "A": "3.12",
+      "B": "3.14",
+      "C": "3.16",
+      "D": "3.18"
+    },
+    "answer": "B",
+    "explanation": "π rounded to two decimal places is 3.14."
+  },
+  {
+    "id": 44,
+    "topic": "Mathematics",
+    "difficulty": "Medium",
+    "question": "What is 9 squared?",
+    "options": {
+      "A": "18",
+      "B": "27",
+      "C": "72",
+      "D": "81"
+    },
+    "answer": "D",
+    "explanation": "9 squared equals 81."
+  },
+  {
+    "id": 45,
+    "topic": "Mathematics",
+    "difficulty": "Hard",
+    "question": "What is the formula for the area of a circle?",
+    "options": {
+      "A": "2πr",
+      "B": "πd",
+      "C": "πr²",
+      "D": "r²"
+    },
+    "answer": "C",
+    "explanation": "The area of a circle is πr²."
+  },
+
+  {
+    "id": 46,
+    "topic": "Science",
+    "difficulty": "Easy",
+    "question": "Which organ helps humans breathe?",
+    "options": {
+      "A": "Heart",
+      "B": "Lungs",
+      "C": "Liver",
+      "D": "Kidney"
+    },
+    "answer": "B",
+    "explanation": "The lungs help humans breathe."
+  },
+  {
+    "id": 47,
+    "topic": "Science",
+    "difficulty": "Easy",
+    "question": "What is the boiling point of water in Celsius?",
+    "options": {
+      "A": "50",
+      "B": "90",
+      "C": "100",
+      "D": "120"
+    },
+    "answer": "C",
+    "explanation": "Water boils at 100°C."
+  },
+  {
+    "id": 48,
+    "topic": "Science",
+    "difficulty": "Medium",
+    "question": "Which part of the plant conducts photosynthesis?",
+    "options": {
+      "A": "Root",
+      "B": "Stem",
+      "C": "Flower",
+      "D": "Leaf"
+    },
+    "answer": "D",
+    "explanation": "Leaves carry out photosynthesis."
+  },
+  {
+    "id": 49,
+    "topic": "Science",
+    "difficulty": "Medium",
+    "question": "What is the center of an atom called?",
+    "options": {
+      "A": "Electron",
+      "B": "Proton",
+      "C": "Nucleus",
+      "D": "Neutron"
+    },
+    "answer": "C",
+    "explanation": "The nucleus is the center of an atom."
+  },
+  {
+    "id": 50,
+    "topic": "Science",
+    "difficulty": "Hard",
+    "question": "Which scientist developed the theory of relativity?",
+    "options": {
+      "A": "Isaac Newton",
+      "B": "Albert Einstein",
+      "C": "Galileo Galilei",
+      "D": "Nikola Tesla"
+    },
+    "answer": "B",
+    "explanation": "Albert Einstein developed the theory of relativity."
+  }
+]
