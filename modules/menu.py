@@ -1,15 +1,13 @@
 def get_topics(questions):
-    """Extracts unique quiz topics.""" #docstring
+    """Extracts unique quiz topics."""
 
-    topics = []
+    topics = set()
 
     for question in questions:
-        topic = question["topic"]
+        topics.add(question["topic"])
 
-        if topic not in topics:
-            topics.append(topic)
+    return sorted(topics)
 
-    return topics
 
 def show_main_menu(topics):
     """Displays main menu."""
@@ -19,9 +17,8 @@ def show_main_menu(topics):
     for index, topic in enumerate(topics, start=1):
         print(f"[{index}] {topic}")
 
-    print("[5] View Leaderboard")
-    print("[6] Exit")
-
+    print(f"[{len(topics) + 1}] View Leaderboard")
+    print(f"[{len(topics) + 2}] Exit")
 
 
 def filter_by_topic(questions, topic):
@@ -32,4 +29,3 @@ def filter_by_topic(questions, topic):
             filtered.append(q)
 
     return filtered
-
