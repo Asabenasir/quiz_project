@@ -29,3 +29,17 @@ def filter_by_topic(questions, topic):
             filtered.append(q)
 
     return filtered
+
+def filter_by_difficulty(questions, difficulty):
+    """Filters questions by difficulty."""
+
+    if difficulty == "Mixed":
+        return questions
+
+    filtered = []
+
+    for question in questions:
+        if question["difficulty"] == difficulty:
+            filtered.append(question)
+
+    return filtered
