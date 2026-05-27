@@ -12,6 +12,10 @@ from modules.quiz import (
     select_random_questions
 )
 
+from modules.leaderboard import (
+    display_leaderboard
+)
+
 
 questions = load_questions()
 
@@ -25,10 +29,13 @@ while True:
     choice = input("\nSelect a topic number: ")
 
     try:
+
         choice = int(choice)
 
         if choice == len(topics) + 2:
+
             print("Goodbye")
+
             break
 
         elif 1 <= choice <= len(topics):
@@ -37,20 +44,20 @@ while True:
 
             print("\nTopic:", selected_topic)
 
-            # FILTER BY TOPIC
             topic_questions = filter_by_topic(
                 questions,
                 selected_topic
             )
 
-            # DIFFICULTY SELECTION
             print("\nSelect Difficulty")
             print("[1] Easy")
             print("[2] Medium")
             print("[3] Hard")
             print("[4] Mixed")
 
-            difficulty_choice = input("\nChoice: ")
+            difficulty_choice = input(
+                "\nChoice: "
+            )
 
             difficulty_map = {
                 "1": "Easy",
@@ -59,61 +66,93 @@ while True:
                 "4": "Mixed"
             }
 
-            selected_difficulty = difficulty_map.get(
-                difficulty_choice
+            selected_difficulty = (
+                difficulty_map.get(
+                    difficulty_choice
+                )
             )
 
             if not selected_difficulty:
+
                 print("Invalid difficulty")
+
                 continue
 
-            # FILTER BY DIFFICULTY
-            topic_questions = filter_by_difficulty(
-                topic_questions,
-                selected_difficulty
+            topic_questions = (
+                filter_by_difficulty(
+                    topic_questions,
+                    selected_difficulty
+                )
             )
 
-            available_questions = len(topic_questions)
+            available_questions = len(
+                topic_questions
+            )
 
             print(
-                f"\nQuestions available: {available_questions}"
+                f"\nQuestions available: "
+                f"{available_questions}"
             )
 
-            # QUESTION COUNT
             question_count = input(
                 "How many questions do you want? "
             )
 
             try:
-                question_count = int(question_count)
+
+                question_count = int(
+                    question_count
+                )
 
                 if question_count <= 0:
-                    print("Enter a positive number")
+
+                    print(
+                        "Enter positive number"
+                    )
+
                     continue
 
-                if question_count > available_questions:
-                    print("Not enough questions available")
+                if (
+                    question_count >
+                    available_questions
+                ):
+
+                    print(
+                        "Not enough questions"
+                    )
+
                     continue
 
             except ValueError:
+
                 print("Invalid number")
+
                 continue
 
-            # RANDOM QUESTION SELECTION
-            selected_questions = select_random_questions(
-                topic_questions,
-                question_count
+            selected_questions = (
+                select_random_questions(
+                    topic_questions,
+                    question_count
+                )
             )
 
-            # START QUIZ
-            run_quiz(selected_questions)
+            player_name = input(
+                "\nEnter your name: "
+            )
+
+            run_quiz(
+                selected_questions,
+                player_name
+)
 
         elif choice == len(topics) + 1:
-            print("Leaderboard not ready yet")
+
+            display_leaderboard()
 
         else:
+
             print("Invalid choice")
 
     except ValueError:
-        print("Enter a valid number")
-        
+
+        print("Enter valid number")

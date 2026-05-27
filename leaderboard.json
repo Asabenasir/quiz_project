@@ -1,0 +1,58 @@
+[
+    {
+        "player": "Asabe Nasir",
+        "topic": "General Knowledge",
+        "difficulty": "Mixed",
+        "score": 150,
+        "accuracy": 100.0,
+        "date": "2026-05-27 09:43:58"
+    },
+    {
+        "player": "Asabe Nasir",
+        "topic": "Python Programming",
+        "difficulty": "Mixed",
+        "score": 120,
+        "accuracy": 80.0,
+        "date": "2026-05-27 09:23:44"
+    },
+    {
+        "player": "0",
+        "topic": "Science",
+        "difficulty": "Mixed",
+        "score": 60,
+        "accuracy": 100.0,
+        "date": "2026-05-27 09:42:34"
+    },
+    {
+        "player": "Asabe Nasir",
+        "topic": "General Knowledge",
+        "difficulty": "Mixed",
+        "score": 40,
+        "accuracy": 100.0,
+        "date": "2026-05-27 09:11:24"
+    },
+    {
+        "player": "Asabe Nasir",
+        "topic": "Mathematics",
+        "difficulty": "Mixed",
+        "score": 30,
+        "accuracy": 50.0,
+        "date": "2026-05-27 09:13:00"
+    },
+    {
+        "player": "Asabe Nasir",
+        "topic": "Science",
+        "difficulty": "Mixed",
+        "score": 30,
+        "accuracy": 50.0,
+        "date": "2026-05-27 09:27:08"
+    },
+    {
+        "player": "ASA",
+        "topic": "Mathematics",
+        "difficulty": "Mixed",
+        "score": 20,
+        "accuracy": 50.0,
+        "date": "2026-05-27 09:45:46"
+    }
+]
