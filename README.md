@@ -1,95 +1,31 @@
-****What This Application Is Expected To Do****
- 
-At a high level, the application:
+# Quiz Application
 
-1.	Loads quiz questions from a JSON file 
-2.	Displays quiz topics dynamically 
-3.	Lets users configure a quiz 
-4.	Runs the quiz interactively 
-5.	Validates answers 
-6.	Calculates scores 
-7.	Shows results and explanations 
-8.	Saves high scores to a leaderboard file 
+## Overview
 
-This is not *“just a quiz app.”*
+A console-based quiz application built with Python. The application allows users to select quiz topics, choose difficulty levels, answer randomized questions, track scores, and view leaderboard rankings.
 
-It is a complete small software system.
+## Features
 
-I am building:
-1.	A data loader 
-2.	A filtering engine 
-3.	A scoring engine 
-4.	A user interaction loop 
-5.	A persistence system 
-6.	A reporting system
+* Dynamic topic selection
+* Difficulty filtering
+* Random question selection
+* No question repetition
+* Timer system
+* Time bonus scoring
+* Leaderboard persistence
+* Session history tracking
+* Performance analytics
+* Wrong answer review
+* JSON-based data storage
 
-**Core Programming Concepts Involved**
+## Technologies Used
 
-This project heavily tests these Python concepts:
+* Python
+* JSON
+* File Handling
+* Modular Programming
 
-*Core Fundamentals*
-1.	Variables 
-2.	Loops 
-3.	Conditionals 
-4.	Functions 
-5.	Lists 
-6.	Dictionaries 
-7.	Strings 
-
-*Intermediate Concepts*
-
-1.	JSON handling 
-2.	File reading/writing 
-3.	Error handling with try/except 
-4.	Modular programming 
-5.	Randomization 
-6.	Time tracking 
-7.	Input validation 
-
-*Software Engineering Concepts*
-
-1.	Separation of concerns 
-2.	Reusability 
-3.	Scalability 
-4.	Clean architecture 
-5.	State management 
-6.	Data persistence
-
-**Relationship Between Features**
-
-Every feature depends on another feature.
-
-*Example flow:*
-
-questions.json
-↓
-
-load_questions()
-↓
-
-extract_topics()
-↓
-
-display_menu()
-↓
-
-filter_questions()
-↓
-
-run_quiz()
-↓
-
-calculate_score()
-↓
-
-display_results()
-↓
-
-save_leaderboard()
-
-**Project Structure**
-
-Structure:
+## Project Structure
 
 quiz_project/
 
@@ -99,52 +35,36 @@ quiz_project/
 
 ├── leaderboard.json
 
-├── utils/
+├── session_history.json
 
-├── file_handler.py
+└── modules/
 
-├── quiz_logic.py
+```
+├── quiz.py
+
+├── menu.py
 
 ├── leaderboard.py
- 
-├── validators.py
 
-└── display.py
+└── file_handler.py
+```
 
-└── README.md
+## How To Run
 
-this structure because:
+1. Open a terminal.
+2. Navigate to the project folder.
+3. Run:
 
-1.	Easier debugging 
-2.	Easier scaling 
-3.	Cleaner code 
-4.	Better separation of concerns
+python quiz_app.py
 
-**Program Flow**
+## Future Improvements
 
-Think of the app like stages.
+* User authentication
+* GUI interface
+* Database integration
+* Online multiplayer mode
+* REST API backend
 
-Stage 1:
-Load data
+## Author
 
-Stage 2:
-Display menu
-
-Stage 3:
-Get quiz configuration
-
-Stage 4:
-Prepare questions
-
-Stage 5:
-Run quiz loop
-
-Stage 6:
-Calculate results
-
-Stage 7:
-Save leaderboard
-
-Stage 8:
-Return to menu
-
+Asabe Nasir
