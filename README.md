@@ -39,7 +39,6 @@ quiz_project/
 
 └── modules/
 
-```
 ├── quiz.py
 
 ├── menu.py
@@ -47,7 +46,6 @@ quiz_project/
 ├── leaderboard.py
 
 └── file_handler.py
-```
 
 ## How To Run
 
