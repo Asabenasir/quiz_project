@@ -38,6 +38,10 @@ while True:
 
             break
 
+        elif choice == len(topics) + 1:
+
+            display_leaderboard()
+
         elif 1 <= choice <= len(topics):
 
             selected_topic = topics[choice - 1]
@@ -66,10 +70,8 @@ while True:
                 "4": "Mixed"
             }
 
-            selected_difficulty = (
-                difficulty_map.get(
-                    difficulty_choice
-                )
+            selected_difficulty = difficulty_map.get(
+                difficulty_choice
             )
 
             if not selected_difficulty:
@@ -125,9 +127,46 @@ while True:
 
             except ValueError:
 
-                print("Invalid number")
+                print(
+                    "Invalid number"
+                )
 
                 continue
+
+            print("\nSelect Time Limit")
+
+            print("[1] 15 Seconds")
+            print("[2] 30 Seconds")
+            print("[3] 60 Seconds")
+            print("[4] Unlimited")
+
+            time_choice = input(
+                "\nChoice: "
+            )
+
+            time_limit_map = {
+                "1": 15,
+                "2": 30,
+                "3": 60,
+                "4": None
+            }
+
+            if (
+                time_choice
+                not in time_limit_map
+            ):
+
+                print(
+                    "Invalid time limit"
+                )
+
+                continue
+
+            time_limit = (
+                time_limit_map[
+                    time_choice
+                ]
+            )
 
             selected_questions = (
                 select_random_questions(
@@ -142,12 +181,10 @@ while True:
 
             run_quiz(
                 selected_questions,
-                player_name
-)
-
-        elif choice == len(topics) + 1:
-
-            display_leaderboard()
+                player_name,
+                time_limit,
+                selected_difficulty
+            )
 
         else:
 

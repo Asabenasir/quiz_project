@@ -89,29 +89,26 @@ save_leaderboard()
 
 **Project Structure**
 
-Structure:
 
+```text
 quiz_project/
-
-├── quiz_app.py
-
+│
+├── modules/
+│   ├── file_handler.py
+│   ├── leaderboard.py
+│   ├── menu.py
+│   └── quiz.py
+│
 ├── questions.json
-
 ├── leaderboard.json
-
-├── utils/
-
-├── file_handler.py
-
-├── quiz_logic.py
-
-├── leaderboard.py
- 
-├── validators.py
-
-└── display.py
-
-└── README.md
+├── session_history.json
+│
+├── quiz_app.py
+├── README.md
+├── Road map.md
+├── functions.md
+└── what_the_app_does.md
+```
 
 this structure because:
 

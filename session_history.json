@@ -13,30 +13,17 @@
         "date": "2026-06-13 16:04:18"
     },
     {
-        "session_id": "dbfe6f0e-a384-479e-867c-5a6e4c0d44f7",
-        "player": "Angel",
-        "topic": "General Knowledge",
-        "difficulty": "mixed",
-        "score": 217,
-        "accuracy": 80.0,
-        "correct": 4,
-        "wrong": 1,
-        "timed_out": 0,
-        "questions": 5,
-        "date": "2026-06-16 01:10:48"
-    },
-    {
-        "session_id": "dea0cd26-b2c6-4f5c-b13d-94899db7f847",
+        "session_id": "0e9a7e8e-be5b-449a-ad78-a2c8d7fe1537",
         "player": "Abba Mohd",
-        "topic": "General Knowledge",
+        "topic": "Mathematics",
         "difficulty": "mixed",
-        "score": 79,
-        "accuracy": 100.0,
-        "correct": 5,
-        "wrong": 0,
+        "score": 0,
+        "accuracy": 0.0,
+        "correct": 0,
+        "wrong": 2,
         "timed_out": 0,
-        "questions": 5,
-        "date": "2026-06-24 14:47:55"
+        "questions": 2,
+        "date": "2026-06-13 16:11:26"
     },
     {
         "session_id": "7587409a-0635-4a13-9374-1c7210b0151c",
@@ -65,16 +52,29 @@
         "date": "2026-06-16 01:08:21"
     },
     {
-        "session_id": "0e9a7e8e-be5b-449a-ad78-a2c8d7fe1537",
-        "player": "Abba Mohd",
-        "topic": "Mathematics",
+        "session_id": "dbfe6f0e-a384-479e-867c-5a6e4c0d44f7",
+        "player": "Angel",
+        "topic": "General Knowledge",
         "difficulty": "mixed",
-        "score": 0,
-        "accuracy": 0.0,
-        "correct": 0,
-        "wrong": 2,
+        "score": 217,
+        "accuracy": 80.0,
+        "correct": 4,
+        "wrong": 1,
         "timed_out": 0,
-        "questions": 2,
-        "date": "2026-06-13 16:11:26"
+        "questions": 5,
+        "date": "2026-06-16 01:10:48"
+    },
+    {
+        "session_id": "dea0cd26-b2c6-4f5c-b13d-94899db7f847",
+        "player": "Abba Mohd",
+        "topic": "General Knowledge",
+        "difficulty": "mixed",
+        "score": 79,
+        "accuracy": 100.0,
+        "correct": 5,
+        "wrong": 0,
+        "timed_out": 0,
+        "questions": 5,
+        "date": "2026-06-24 14:47:55"
     }
 ]
